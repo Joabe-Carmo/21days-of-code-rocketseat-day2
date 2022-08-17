@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0; 
+}
+
+div{
+  width: 99,5%;  /*Largura total da tela*/
+  height: 623px; /*Altura total da tela*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("images/image.jpg");
+}
+
+h1{
+  font-size: 50px;
+  /* background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+}
+
+h1, p{
+  color: rgb(111, 64, 64);
+}
+
+p{
+  
+}
+/* 
+Estou tentando mudar 
+o display para descer as 
+linhas das tag's a seguir 
+
+Algo como a ideia abaixo
+div p{
+  display: block;
+}
+*/
+
+
